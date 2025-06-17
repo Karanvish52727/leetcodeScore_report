@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 2px;
+    margin: 1rem;
+    padding: 1rem;
+    height: 100vh;
+    background-color: rgb(216, 207, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainclass{
+    margin: 0.3rem;
+    padding: 0.5rem;
+    gap: 2rem;
+    border: 2px solid rgb(24, 24, 23);
+    background-color: #52707d;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    max-width: 700px;
+}
+.user-input{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+#ser1{
+    width: 90%;
+    padding: 0.1rem;
+    margin-top: 0.2rem;
+}
+.input-class{
+    display: flex;
+    justify-content: space-between;
+}
+#serbutton{
+    /* width: 20%; */
+    padding: 0.1rem;
+    margin-top: 0.2rem;
+}
+.stats{
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(13, 13, 11);
+    object-fit: cover;
+}
+.progress{
+    gap: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.circle{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 3px solid rgb(3, 244, 95);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    background: conic-gradient(green var(--progress-degree, 0%), #283a2e 0%);
+    flex-direction: column;
+    /* background: ; */
+}
+.cards{
+    padding: 10px;
+    background-color: #b6d8f4;
+    width: 45%;
+    max-width: 250px;
+    min-width:150px ;
+    height: 80px;
+    border: 3px solid rgb(80, 252, 80);
+    border-radius: 6%;
+    /* flex-wrap: wrap; */
+}
+.stats-cards{
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+
+}
